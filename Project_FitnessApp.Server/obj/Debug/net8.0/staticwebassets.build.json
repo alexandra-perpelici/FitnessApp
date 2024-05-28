@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "/fqLEmR8ej7pROBasYYp5yG3AiU+VQFGAgMl3ecTYlw=",
+  "Source": "Project_FitnessApp.Server",
+  "BasePath": "_content/Project_FitnessApp.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\project_fitnessapp.client.esproj",
+      "Version": 2,
+      "Source": "project_fitnessapp.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
