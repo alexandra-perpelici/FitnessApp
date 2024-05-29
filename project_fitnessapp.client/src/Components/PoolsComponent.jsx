@@ -47,7 +47,7 @@ const PoolsComponent = ({ userId }) => {
 
     const handleBookingSubmit = async (data) => {
 
-        const hasSubscription = await checkSubscription(userId, 'gym');
+        const hasSubscription = await checkSubscription(userId, 'pool');
         if (!hasSubscription) {
             toast.error("You don't have an active subscription for the Pools. Please subscribe first.")
             return;
@@ -62,7 +62,8 @@ const PoolsComponent = ({ userId }) => {
                 console.error('Subscription failed:', response.statusText);
             }
         } catch (error) {
-            console.error('Error during booking:', error);
+            toast.error("You already have a booking at this date and hour.")
+      
         }
     }
 
@@ -77,6 +78,7 @@ const PoolsComponent = ({ userId }) => {
                         <li><Link to="/gym">Gym</Link></li>
                         <li><Link to="/climbing">Climbing</Link></li>
                         <li><Link to="/subs">Make a subscription</Link></li>
+                        <li><Link to="/userseebookings">See your bookings</Link></li>
                         <li><Link to="/logout">Logout</Link></li>
                     </ul>
                 </nav>

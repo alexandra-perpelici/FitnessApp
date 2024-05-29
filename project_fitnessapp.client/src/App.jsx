@@ -18,6 +18,7 @@ import HomePage from './Components/HomePage';
 import SeeSubscriptions from './Components/SeeSubscriptions';
 import AdminMenuComponent from "./Components/Admin_Menu";
 
+import UserSeeBookings from "./Components/UserSeeBookings";
 
 
 const LogoutComponent = () => {
@@ -56,7 +57,8 @@ function App() {
                         <Route path="/poolsman" element={<PoolManagementComponent />} />
                         <Route path="/climbingman" element={<ClimbingManagementComponent />} />
                         <Route path="/seesubs" element={<SeeSubscriptions />} />
-                        <Route path="/admin_menu" element={<AdminMenuComponent /> } />
+                        <Route path="/admin_menu" element={<AdminMenuComponent />} />
+                        <Route path="/userseebookings" element={<UserSeeBookings />} />
                     </Routes>
                     </div>
                 </BrowserRouter>

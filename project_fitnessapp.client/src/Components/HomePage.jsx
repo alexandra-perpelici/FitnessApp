@@ -15,6 +15,7 @@ const HomePage = () => {
                         <li><Link to="/gym">Gym</Link></li>
                         <li><Link to="/climbing">Climbing</Link></li>
                         <li><Link to="/subs">Make a subscription</Link></li>
+                        <li><Link to="/userseebookings">See your bookings</Link></li>
                         <li><Link to="/logout">Logout</Link></li>
                     </ul>
                 </nav>

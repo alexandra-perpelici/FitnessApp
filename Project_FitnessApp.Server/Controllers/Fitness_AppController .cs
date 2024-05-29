@@ -453,29 +453,53 @@ namespace Project_FitnessApp.Controllers
             var bookings = await _myDbContext.Booking.ToListAsync();
             return Ok(bookings);
         }
-
-
-        [HttpPost("AddBooking")]
-        public async Task<IActionResult> AddBooking([FromBody] Booking booking)
+        [HttpDelete("DeleteBookingsByUser/{userId}")]
+        public async Task<IActionResult> DeleteBookingsByUser(int userId)
         {
-            if (booking == null)
-            {
-                return BadRequest("Invalid booking data");
-            }
-
             try
             {
+                var bookings = _myDbContext.Booking.Where(b => b.User_id == userId);
+                if (!bookings.Any())
+                {
+                    return NotFound("No bookings found for this user.");
+                }
 
-                await _myDbContext.AddAsync(booking);
+                _myDbContext.Booking.RemoveRange(bookings);
                 await _myDbContext.SaveChangesAsync();
 
-                return Ok("Booking added successfully");
+                return Ok("All bookings deleted successfully.");
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Error adding booking: {ex.Message}");
+                return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
+
+        [HttpPost("AddBooking")]
+        public async Task<IActionResult> AddBooking([FromBody] Booking newBooking)
+        {
+            try
+            {
+                var conflictingBooking = await _myDbContext.Booking
+                    .Where(b => b.User_id == newBooking.User_id && b.Day == newBooking.Day && b.Hour == newBooking.Hour)
+                    .FirstOrDefaultAsync();
+
+                if (conflictingBooking != null)
+                {
+                    return BadRequest("You already have a booking at this time.");
+                }
+
+                _myDbContext.Booking.Add(newBooking);
+                await _myDbContext.SaveChangesAsync();
+                return Ok(newBooking);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+
+
 
         [HttpDelete("DeleteBooking/{id}")]
 
@@ -490,6 +514,39 @@ namespace Project_FitnessApp.Controllers
             _myDbContext.Booking.Remove(booking);
             await _myDbContext.SaveChangesAsync();
             return Ok("Booking deleted successfully");
+        }
+        [HttpGet("GetBookingByUser/{id}")]
+        public async Task<IActionResult> GetBookingByUser(int id)
+        {
+            try
+            {
+                var bookings = await _myDbContext.Booking
+                    .Where(b => b.User_id == id)
+                    .Join(_myDbContext.Trainers,
+                        booking => booking.Trainer_id,
+                        trainer => trainer.Trainer_id,
+                        (booking, trainer) => new
+                        {
+                            booking.Booking_id,
+                            booking.Day,
+                            booking.Hour,
+                            booking.User_id,
+                            booking.Trainer_id,
+                            TrainerName = trainer.Trainer_name
+                        })
+                    .ToListAsync();
+
+                if (bookings == null || !bookings.Any())
+                {
+                    return NotFound("Bookings not found");
+                }
+
+                return Ok(bookings);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
         }
 
 
@@ -527,17 +584,7 @@ namespace Project_FitnessApp.Controllers
             }
         }
 
-        [HttpGet("BookingCount")]
-        public async Task<IActionResult> GetBookingCount(int day, int hour)
-        {
-            var count = await _myDbContext.Booking
-                .Where(t => t.Day == day && t.Hour == hour)
-                .CountAsync();
-
-            return Ok(new { count });
-        }
-
-
+  
         [HttpDelete("DeleteOldBookings")]
         public async Task<IActionResult> DeleteOldBookings()
         {
@@ -669,7 +716,7 @@ namespace Project_FitnessApp.Controllers
         }
 
 
-        [HttpGet("GetBookingsByUserAndTrainer/{userId}/{trainerId}")]
+        /*[HttpGet("GetBookingsByUserAndTrainer/{userId}/{trainerId}")]
         public async Task<IActionResult> GetBookingsByUserAndTrainer(int userId, int trainerId)
         {
             try
@@ -689,7 +736,7 @@ namespace Project_FitnessApp.Controllers
             {
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
-        }
+        }*/
 
 
     }

@@ -5,6 +5,7 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import BookingFormComponent from './BookingFormComponent';
+import UserSeeBookings from './UserSeeBookings';
 
 const ClimbingComponent = ({ userId }) => {
     const [trainerId, setTrainerId] = useState(null);
@@ -68,7 +69,7 @@ const ClimbingComponent = ({ userId }) => {
                 console.error('Subscription failed:', response.statusText);
             }
         } catch (error) {
-            console.error('Error during booking:', error);
+            toast.error("You already have a booking at this date and hour.")
         }
     }
 
@@ -82,6 +83,7 @@ const ClimbingComponent = ({ userId }) => {
                         <li><Link to="/gym">Gym</Link></li>
                         <li><Link to="/climbing">Climbing</Link></li>
                         <li><Link to="/subs">Make a subscription</Link></li>
+                        <li><Link to="/userseebookings">See your bookings</Link></li>
                         <li><Link to="/logout">Logout</Link></li>
                     </ul>
                 </nav>
@@ -118,6 +120,7 @@ const ClimbingComponent = ({ userId }) => {
                 </b>
 
                 <BookingFormComponent onSubmit={handleBookingSubmit} userId={userId} trainerId={trainerId} />
+               
             </div>
 
         </div>

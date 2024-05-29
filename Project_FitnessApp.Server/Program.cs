@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Project_FitnessApp.Data;
-using Project_FitnessApp.Services;
+
 using System.Net.Http;
 
 var builder = WebApplication.CreateBuilder(args);

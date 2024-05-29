@@ -67,7 +67,8 @@ const GymComponent = ({ userId }) => {
                 console.error('Subscription failed:', response.statusText);
             }
         } catch (error) {
-            console.error('Error during booking:', error);
+            toast.error("You already have a booking at this date and hour.")
+          
         }
     };
 
@@ -81,6 +82,7 @@ const GymComponent = ({ userId }) => {
                         <li><Link to="/gym">Gym</Link></li>
                         <li><Link to="/climbing">Climbing</Link></li>
                         <li><Link to="/subs">Make a subscription</Link></li>
+                        <li><Link to="/userseebookings">See your bookings</Link></li>
                         <li><Link to="/logout">Logout</Link></li>
                     </ul>
                 </nav>
