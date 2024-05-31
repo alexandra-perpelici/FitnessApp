@@ -7,20 +7,18 @@ import { Link } from 'react-router-dom';
 const SeeBookings = ({ trainerId }) => {
     const [bookings, setBookings] = useState([]);
     const [showBookings, setShowBookings] = useState(false);
+   
 
     useEffect(() => {
+       
         if (trainerId) {
             axios.get(`https://localhost:7194/Fitness_App/GetBookingByTrainer/${trainerId}`)
                 .then(response => {
-                    const today = new Date();
-                    const todayDayOfWeek = today.getDay();
-                    const currentHour = today.getHours();
-
-                    const filteredBookings = response.data.filter(booking => {
-                        return booking.day > todayDayOfWeek || (booking.day === todayDayOfWeek && booking.hour >= currentHour);
-                    });
-
-                    setBookings(filteredBookings);
+                  
+               
+                    setBookings(response.data);
+                    
+                  
                 })
                 .catch(error => console.error('Error fetching bookings:', error));
         }

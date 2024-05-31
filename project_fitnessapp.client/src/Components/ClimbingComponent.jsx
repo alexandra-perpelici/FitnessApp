@@ -5,7 +5,7 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import BookingFormComponent from './BookingFormComponent';
-import UserSeeBookings from './UserSeeBookings';
+
 
 const ClimbingComponent = ({ userId }) => {
     const [trainerId, setTrainerId] = useState(null);
@@ -41,37 +41,58 @@ const ClimbingComponent = ({ userId }) => {
     const showList = () => setIsVisible(true);
     const hideList = () => setIsVisible(false);
 
+    
+
     const checkSubscription = async (userId, utilityType) => {
         userId = parseInt(sessionStorage.getItem('userId'));
+        utilityType = 'climbing';
+      
         try {
             const response = await axios.get(`https://localhost:7194/Fitness_App/CheckSubscription/${userId}/${utilityType}`);
+          
             return response.data;
+
         } catch (error) {
             console.error(`Error checking subscription for ${utilityType}:`, error);
-            return false;
+            return { IsActive: false, ExpirationDate: null }; 
         }
     };
-
-
+   
     const handleBookingSubmit = async (data) => {
-        const hasSubscription = await checkSubscription(userId, 'climbing');
-        if (!hasSubscription) {
-            toast.error("You don't have an active subscription for Climbing. Please subscribe first.")
+
+         userId = parseInt(sessionStorage.getItem('userId'));
+         const utilityType = 'climbing';
+        
+        const subscription = await checkSubscription(userId, utilityType);
+        
+        if (!subscription.isActive) {
+            toast.error("You don't have an active subscription for the Climbing facility. Please subscribe first.");
+            return;
+        }
+
+        const expirationDate = new Date(subscription.ExpirationDate);
+        const bookingDateTime = new Date();
+       
+
+        if (bookingDateTime > expirationDate) {
+            toast.error("Your subscription will expire before the booking date. Please renew your subscription.");
             return;
         }
 
         try {
             const response = await axios.post('https://localhost:7194/Fitness_App/AddBooking', data);
             if (response.status === 200) {
-                toast.success(`Thank you! You've succesfully booked your spot at our Climbing facility!`);
-
+                toast.success("Thank you! You've successfully booked your spot.");
             } else {
-                console.error('Subscription failed:', response.statusText);
+                console.error('Booking failed:', response.statusText);
             }
         } catch (error) {
-            toast.error("You already have a booking at this date and hour.")
+            toast.error("You already have a booking at this date and hour.");
         }
-    }
+    };
+
+
+
 
     return (
         <div className="climbing-container">

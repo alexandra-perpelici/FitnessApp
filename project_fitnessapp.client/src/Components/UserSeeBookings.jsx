@@ -17,7 +17,7 @@ const UserSeeBookings = () => {
                 })
                 .catch(error => {
                     console.error('Error fetching bookings:', error);
-                    alert('Error fetching bookings. Please try again later.');
+                    
                 });
         }
     }, []);

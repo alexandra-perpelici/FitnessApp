@@ -41,36 +41,55 @@ const GymComponent = ({ userId }) => {
     const showList = () => setIsVisible(true);
     const hideList = () => setIsVisible(false);
 
+
     const checkSubscription = async (userId, utilityType) => {
         userId = parseInt(sessionStorage.getItem('userId'));
-
+        utilityType = 'gym';
+   
         try {
             const response = await axios.get(`https://localhost:7194/Fitness_App/CheckSubscription/${userId}/${utilityType}`);
+            console.log(response.data);
             return response.data;
+
         } catch (error) {
-            return false;
+            console.error(`Error checking subscription for ${utilityType}:`, error);
+            return { IsActive: false, ExpirationDate: null };
         }
     };
 
     const handleBookingSubmit = async (data) => {
-        const hasSubscription = await checkSubscription(userId, 'gym');
-        if (!hasSubscription) {
-            toast.error("You don't have an active subscription for Gym. Please subscribe first.");
+
+        userId = parseInt(sessionStorage.getItem('userId'));
+        const utilityType = 'gym';
+
+        const subscription = await checkSubscription(userId, utilityType);
+
+        if (!subscription.isActive) {
+            toast.error("You don't have an active subscription for the Gym facility. Please subscribe first.");
+            return;
+        }
+
+        const expirationDate = new Date(subscription.ExpirationDate);
+        const bookingDateTime = new Date();
+
+
+        if (bookingDateTime > expirationDate) {
+            toast.error("Your subscription will expire before the booking date. Please renew your subscription.");
             return;
         }
 
         try {
             const response = await axios.post('https://localhost:7194/Fitness_App/AddBooking', data);
             if (response.status === 200) {
-                toast.success(`Thank you! You've successfully booked your spot at our Gym facility!`);
+                toast.success("Thank you! You've successfully booked your spot.");
             } else {
-                console.error('Subscription failed:', response.statusText);
+                console.error('Booking failed:', response.statusText);
             }
         } catch (error) {
-            toast.error("You already have a booking at this date and hour.")
-          
+            toast.error("You already have a booking at this date and hour.");
         }
     };
+
 
     return (
         <div className="gym-container">

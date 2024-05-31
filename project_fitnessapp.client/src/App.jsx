@@ -19,6 +19,7 @@ import SeeSubscriptions from './Components/SeeSubscriptions';
 import AdminMenuComponent from "./Components/Admin_Menu";
 
 import UserSeeBookings from "./Components/UserSeeBookings";
+import axios from 'axios';
 
 
 const LogoutComponent = () => {
@@ -37,6 +38,49 @@ const LogoutComponent = () => {
 
 function App() {
     const [user, setUser] = useState(false);
+
+    let interval = 86400000;
+    
+        useEffect(() => {
+            const deleteData = async () => {
+                try {
+                    await axios.delete('https://localhost:7194/Fitness_App/DeleteOldBookings');
+                    console.log('DELETE request sent to:', 'https://localhost:7194/Fitness_App/DeleteOldBookings');
+                } catch (error) {
+                    console.error('Error sending DELETE request:', error);
+                }
+                console.log("OLD DATA WAS DELETED");
+            };
+            
+
+            const checkMidnightAndDelete = async () => {
+                const now = new Date();
+                console.log('Current time:', now.getHours(), now.getMinutes());
+               
+                let h = now.getHours();
+                console.log(h);
+                if (h === 0 && now.getMinutes() === 0) {
+
+               
+                deleteData();
+
+               
+                    const intervalId = setInterval(deleteData, interval);
+
+            
+                return () => clearInterval(intervalId);
+                }
+            }
+            
+
+         
+            const intervalId = setInterval(checkMidnightAndDelete, 5000);
+
+           
+            return () => clearInterval(intervalId);
+            
+        }, ['https://localhost:7194/Fitness_App/DeleteOldBookings', interval]);
+    
 
     return (
         <div id="root">

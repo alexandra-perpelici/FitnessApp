@@ -595,7 +595,7 @@ namespace Project_FitnessApp.Controllers
                 var currentHour = today.Hour;
 
                 var oldBookings = await _myDbContext.Booking
-                    .Where(a => a.Day < todayDayOfWeek || (a.Day == todayDayOfWeek && a.Hour < currentHour))
+                    .Where(a => a.Day == (todayDayOfWeek != 0 ? todayDayOfWeek - 1 : 6))
                     .ToListAsync();
 
                 if (!oldBookings.Any())
@@ -699,9 +699,8 @@ namespace Project_FitnessApp.Controllers
             return Ok("Subscription deleted successfully");
         }
 
-
         [HttpGet("CheckSubscription/{userId}/{utilityType}")]
-        public async Task<ActionResult<bool>> CheckSubscription(int userId, string utilityType)
+        public async Task<ActionResult<object>> CheckSubscription(int userId, string utilityType)
         {
             var user = await _myDbContext.Users.FindAsync(userId);
             if (user == null)
@@ -709,34 +708,25 @@ namespace Project_FitnessApp.Controllers
                 return NotFound("User not found");
             }
 
+          
             var subscription = await _myDbContext.Subscription
-                .FirstOrDefaultAsync(s => s.User_id == userId && s.Type == utilityType && s.Time_sub <= DateTime.Now);
+                .Where(s => s.User_id == userId && s.Type == utilityType)
+                .OrderByDescending(s => s.Time_sub)
+                .FirstOrDefaultAsync();
 
-            return Ok(subscription != null);
+            if (subscription == null)
+            {
+                return Ok(new { IsActive = false, ExpirationDate = (DateTime?)null });
+            }
+
+            var expirationDate = subscription.Time_sub.AddDays(30);
+            bool isActive = DateTime.Now <= expirationDate;
+
+            return Ok(new { IsActive = isActive, ExpirationDate = expirationDate });
         }
 
 
-        /*[HttpGet("GetBookingsByUserAndTrainer/{userId}/{trainerId}")]
-        public async Task<IActionResult> GetBookingsByUserAndTrainer(int userId, int trainerId)
-        {
-            try
-            {
-                var bookings = await _myDbContext.Booking
-                    .Where(b => b.User_id == userId && b.Trainer_id == trainerId)
-                    .ToListAsync();
 
-                if (bookings == null || !bookings.Any())
-                {
-                    return NotFound("Bookings not found");
-                }
-
-                return Ok(bookings);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"Internal server error: {ex.Message}");
-            }
-        }*/
 
 
     }

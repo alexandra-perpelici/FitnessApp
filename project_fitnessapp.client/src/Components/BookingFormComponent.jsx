@@ -27,7 +27,7 @@ const BookingFormComponent = ({ onSubmit, userId, trainerId }) => {
             const hour = parseInt(selectedHour.split(":")[0]);
 
             try {
-                const response = await axios.get(`https://localhost:7194/Fitness_App/GetBookingsByUser/{userId}`);
+                const response = await axios.get(`https://localhost:7194/Fitness_App/GetBookingByUser/${userId}`);
                 const existingBookings = response.data;
 
                 if (existingBookings.some(booking => booking.day === day && booking.hour === hour)) {

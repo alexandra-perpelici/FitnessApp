@@ -6,7 +6,7 @@ import { toast } from 'react-toastify';
 const Subs = () => {
     const [name, setName] = useState('');
     const [startDate, setStartDate] = useState('');
-    const [subscriptionType, setSubscriptionType] = useState('gym');  
+    const [subscriptionType, setSubscriptionType] = useState('gym');
     const navigate = useNavigate();
 
     const handleNameChange = (event) => {
@@ -28,10 +28,15 @@ const Subs = () => {
 
         try {
             const checkSubscriptionResponse = await axios.get(`https://localhost:7194/Fitness_App/CheckSubscription/${userId}/${subscriptionType}`);
-            if (checkSubscriptionResponse.data) {
+            const subscriptionData = checkSubscriptionResponse.data;
+
+            if (subscriptionData.isActive && new Date(subscriptionData.expirationDate) > new Date()) {
                 toast.error(`You're already subscribed to the ${subscriptionType} facility.`);
                 return;
             }
+
+            console.log("No active subscription found, create a new subscription.");
+
         } catch (error) {
             if (error.response && error.response.status === 404) {
                 console.log("No existing subscription found, create a new subscription.");
@@ -72,6 +77,7 @@ const Subs = () => {
                         <li><Link to="/gym">Gym</Link></li>
                         <li><Link to="/climbing">Climbing</Link></li>
                         <li><Link to="/subs">Make a subscription</Link></li>
+                        <li><Link to="/userseebookings">See your bookings</Link></li>
                         <li><Link to="/logout">Logout</Link></li>
                     </ul>
                 </nav>
