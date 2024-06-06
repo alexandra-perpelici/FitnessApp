@@ -9,17 +9,18 @@ const HomePage = () => {
         <div>
             <div className="navbar">
                 <nav>
-                    <ul>
+                    <ul className="nav-items">
                         <li><Link to="/home">Home</Link></li>
                         <li><Link to="/pools">Pools</Link></li>
                         <li><Link to="/gym">Gym</Link></li>
                         <li><Link to="/climbing">Climbing</Link></li>
                         <li><Link to="/subs">Make a subscription</Link></li>
-                        <li><Link to="/userseebookings">See your bookings</Link></li>
+                        <li><Link to="/userseebookings">See bookings</Link></li>
                         <li><Link to="/logout">Logout</Link></li>
                     </ul>
                 </nav>
             </div>
+
 
             <div>
                 <h1>Welcome to Our Gym!</h1>

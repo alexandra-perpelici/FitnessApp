@@ -67,6 +67,7 @@ namespace Project_FitnessApp.Controllers
         [HttpPost("AddUser")]
         public async Task<IActionResult> AddUser([FromBody] User userRequest)
         {
+
             await _myDbContext.AddAsync(userRequest);
             await _myDbContext.SaveChangesAsync();
             return Ok(userRequest);

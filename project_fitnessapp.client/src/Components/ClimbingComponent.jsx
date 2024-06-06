@@ -87,7 +87,7 @@ const ClimbingComponent = ({ userId }) => {
                 console.error('Booking failed:', response.statusText);
             }
         } catch (error) {
-            toast.error("You already have a booking at this date and hour.");
+            console.log("error");
         }
     };
 
@@ -98,17 +98,18 @@ const ClimbingComponent = ({ userId }) => {
         <div className="climbing-container">
             <div className="navbar">
                 <nav>
-                    <ul>
+                    <ul className="nav-items">
                         <li><Link to="/home">Home</Link></li>
                         <li><Link to="/pools">Pools</Link></li>
                         <li><Link to="/gym">Gym</Link></li>
                         <li><Link to="/climbing">Climbing</Link></li>
                         <li><Link to="/subs">Make a subscription</Link></li>
-                        <li><Link to="/userseebookings">See your bookings</Link></li>
+                        <li><Link to="/userseebookings">See bookings</Link></li>
                         <li><Link to="/logout">Logout</Link></li>
                     </ul>
                 </nav>
             </div>
+
             <div className="centered-content">
                 <h2>Climbing Trainer: {trainerName}</h2>
                 <b><p>About our trainer:</p>

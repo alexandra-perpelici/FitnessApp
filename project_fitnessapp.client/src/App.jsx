@@ -58,7 +58,7 @@ function App() {
                 console.log('Current time:', now.getHours(), now.getMinutes());
                
                 let h = now.getHours();
-                console.log(h);
+              
                 if (h === 0 && now.getMinutes() === 0) {
 
                

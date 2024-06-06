@@ -111,77 +111,78 @@ const GymManagementComponent = () => {
         <div className="management">
             <div className="navbar">
                 <nav>
-                    <ul>
+                    <ul className="nav-items">
+                        <li><Link to="/admin_menu">Home</Link></li>
                         {(userId === 2) && <li><Link to="/poolsman">Pool Management</Link></li>}
                         {(userId === 1) && <li><Link to="/gymman">Gym Management</Link></li>}
                         {(userId === 3) && <li><Link to="/climbingman">Wall Management</Link></li>}
-                        <li><Link to="/admin_menu">Home</Link></li>
-                        <li><Link to="/logout">Logout</Link></li>
                        
+                        <li><Link to="/logout">Logout</Link></li>
                     </ul>
                 </nav>
             </div>
-            <h1>Gym Trainer: {trainerName}</h1>
+            <div className="centered-content">
+                <h1>Gym Trainer: {trainerName}</h1>
+                <SeeSubscriptions trainerType={trainerType} />
 
-            <SeeSubscriptions trainerType={trainerType} />
+                <h2> See Equipments </h2>
+                <div>
+                    {!showEquipments && <button onClick={handleView}>View</button>}
+                    {showEquipments && <button onClick={handleHide}>Hide</button>}
+                </div>
 
-            <h2> See Equipments </h2>
-            <div>
-                {!showEquipments && <button onClick={handleView}>View</button>}
-                {showEquipments && <button onClick={handleHide}>Hide</button>}
+                {showEquipments && (
+                    <>
+                        <h3>Available Equipments:</h3>
+                        <ul>
+                            {equipments.map(equipment => (
+                                <li key={equipment.equipment_id}>
+                                    - Name: {equipment.equipment_name} - Body: {equipment.body}
+                                    <button onClick={() => handleUpdateClick(equipment.equipment_id)}>Update</button>
+                                    <button onClick={() => handleDelete(equipment.equipment_id)}>Delete</button>
+                                    {updatingEquipmentId === equipment.equipment_id && (
+                                        <div>
+                                            <input
+                                                type="text"
+                                                placeholder="Name"
+                                                value={updateEquipmentData.equipment_name}
+                                                onChange={(e) => setUpdateEquipmentData({ ...updateEquipmentData, equipment_name: e.target.value })}
+                                            />
+                                            <input
+                                                type="text"
+                                                placeholder="Body"
+                                                value={updateEquipmentData.body}
+                                                onChange={(e) => setUpdateEquipmentData({ ...updateEquipmentData, body: e.target.value })}
+                                            />
+                                            <button onClick={handleUpdate}>Update</button>
+                                        </div>
+                                    )}
+                                </li>
+                            ))}
+                        </ul>
+
+                        <div>
+                            <h3>Add Equipment:</h3>
+                            <input
+                                type="text"
+                                placeholder="Name"
+                                value={newEquipmentData.equipment_name}
+                                onChange={(e) => setNewEquipmentData({ ...newEquipmentData, equipment_name: e.target.value })}
+                            />
+                            <input
+                                type="text"
+                                placeholder="Body"
+                                value={newEquipmentData.body}
+                                onChange={(e) => setNewEquipmentData({ ...newEquipmentData, body: e.target.value })}
+                            />
+                            <button onClick={handleAdd}>Add</button>
+                        </div>
+                    </>
+                )}
+
+                <SeeBookings trainerId={userId} />
             </div>
 
-            {showEquipments && (
-                <>
-                    <h3> Available Equipments: </h3>
-
-                    <ul>
-                        {equipments.map(equipment => (
-                            <li key={equipment.equipment_id}>
-                                - Name: {equipment.equipment_name} - Body: {equipment.body}
-                                <button onClick={() => handleUpdateClick(equipment.equipment_id)}>Update</button>
-                                <button onClick={() => handleDelete(equipment.equipment_id)}>Delete</button>
-                                {updatingEquipmentId === equipment.equipment_id && (
-                                    <div>
-                                        <input
-                                            type="text"
-                                            placeholder="Name"
-                                            value={updateEquipmentData.equipment_name}
-                                            onChange={(e) => setUpdateEquipmentData({ ...updateEquipmentData, equipment_name: e.target.value })}
-                                        />
-                                        <input
-                                            type="text"
-                                            placeholder="Body"
-                                            value={updateEquipmentData.body}
-                                            onChange={(e) => setUpdateEquipmentData({ ...updateEquipmentData, body: e.target.value })}
-                                        />
-                                        <button onClick={handleUpdate}>Update</button>
-                                    </div>
-                                )}
-                            </li>
-                        ))}
-                    </ul>
-
-                    <div>
-                        <h3>Add Equipment:</h3>
-                        <input
-                            type="text"
-                            placeholder="Name"
-                            value={newEquipmentData.equipment_name}
-                            onChange={(e) => setNewEquipmentData({ ...newEquipmentData, equipment_name: e.target.value })}
-                        />
-                        <input
-                            type="text"
-                            placeholder="Body"
-                            value={newEquipmentData.body}
-                            onChange={(e) => setNewEquipmentData({ ...newEquipmentData, body: e.target.value })}
-                        />
-                        <button onClick={handleAdd}>Add</button>
-                    </div>
-                </>
-            )}
-            <SeeBookings trainerId={userId} />
-           
         </div>
     );
 };

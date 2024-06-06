@@ -112,16 +112,17 @@ const PoolManagementComponent = () => {
         <div className="management">
             <div className="navbar">
                 <nav>
-                    <ul>
+                    <ul className="nav-items">
+                        <li><Link to="/admin_menu">Home</Link></li>
                         {(userId === 2) && <li><Link to="/poolsman">Pool Management</Link></li>}
                         {(userId === 1) && <li><Link to="/gymman">Gym Management</Link></li>}
                         {(userId === 3) && <li><Link to="/climbingman">Wall Management</Link></li>}
-                        <li><Link to="/admin_menu">Home</Link></li>
+                        
                         <li><Link to="/logout">Logout</Link></li>
                     </ul>
                 </nav>
             </div>
-
+            <div className="centered-content">
             <h1>Swimming Trainer: {trainerName}</h1>
 
             <SeeSubscriptions trainerType={trainerType} />
@@ -164,6 +165,7 @@ const PoolManagementComponent = () => {
             )}
             <SeeBookings trainerId={userId} />
            
+            </div>
         </div>
     );
 };

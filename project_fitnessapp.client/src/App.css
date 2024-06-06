@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     width: 100vw;
-
 }
 
 #root {
@@ -12,6 +11,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    overflow-x: hidden;
 }
 
 tr:nth-child(even) {
@@ -39,7 +39,6 @@ th, td {
     justify-content: center;
     align-items: center;
     padding-top: 50px;
-
 }
 
 .app-container {
@@ -53,7 +52,7 @@ th, td {
 }
 
 .management {
-    background-image: url('/pics/back.jpg');
+    background-image: url('/pics/backk.jpg');
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -80,13 +79,17 @@ th, td {
     justify-content: center;
     z-index: 100;
     border: 0.1px solid rgb(38, 64, 151);
-    height: 50px;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
 }
 
     .navbar nav {
         display: flex;
         justify-content: center;
         width: 100%;
+        flex-wrap: wrap;
     }
 
         .navbar nav ul {
@@ -94,20 +97,29 @@ th, td {
             list-style-type: none;
             margin: 0;
             padding: 0;
+            flex-wrap: wrap;
+            width: 100%;
         }
 
             .navbar nav ul li {
-                color: #FFF;
                 text-align: center;
                 padding: 14px 16px;
                 text-decoration: none;
                 font-size: 17px;
                 transition: background-color 0.3s, color 0.3s;
+                box-sizing: border-box;
             }
 
                 .navbar nav ul li:hover {
                     background-color: rgb(18, 16, 53);
                 }
+
+.nav-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
 
 .container {
     padding: 20px;
@@ -139,5 +151,5 @@ th, td {
     max-width: 800px;
     margin: 0 auto;
     height: 100vh;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0  #000;
 }

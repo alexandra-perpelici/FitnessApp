@@ -46,10 +46,10 @@ const UserSeeBookings = () => {
     const groupedBookings = groupBookingsByDay(bookings);
 
     return (
-        <div>
+        <div className="management">
             <div className="navbar">
                 <nav>
-                    <ul>
+                    <ul className="nav-items">
                         <li><Link to="/home">Home</Link></li>
                         <li><Link to="/pools">Pools</Link></li>
                         <li><Link to="/gym">Gym</Link></li>
@@ -60,32 +60,34 @@ const UserSeeBookings = () => {
                     </ul>
                 </nav>
             </div>
-            <h3>See Bookings</h3>
-            <div>
-                {!showBookings && <button onClick={handleViewBookings}>View</button>}
-                {showBookings && <button onClick={handleHideBookings}>Hide</button>}
-            </div>
-
-            {showBookings && (
+            <div className="centered-content">
+                <h3>See Bookings</h3>
                 <div>
-                    {dayNames.map(day => (
-                        <div key={day}>
-                            <h4>{day}</h4>
-                            <ul>
-                                {groupedBookings[day] ? (
-                                    groupedBookings[day].map(booking => (
-                                        <li key={booking.booking_id}>
-                                            {formatBooking(booking)}
-                                        </li>
-                                    ))
-                                ) : (
-                                    <li>No bookings</li>
-                                )}
-                            </ul>
-                        </div>
-                    ))}
+                    {!showBookings && <button onClick={handleViewBookings}>View</button>}
+                    {showBookings && <button onClick={handleHideBookings}>Hide</button>}
                 </div>
-            )}
+
+                {showBookings && (
+                    <div>
+                        {dayNames.map(day => (
+                            <div key={day}>
+                                <h4>{day}</h4>
+                                <ul>
+                                    {groupedBookings[day] ? (
+                                        groupedBookings[day].map(booking => (
+                                            <li key={booking.booking_id}>
+                                                {formatBooking(booking)}
+                                            </li>
+                                        ))
+                                    ) : (
+                                        <li>No bookings</li>
+                                    )}
+                                </ul>
+                            </div>
+                        ))}
+                    </div>
+                )}
+            </div>
         </div>
     );
 };

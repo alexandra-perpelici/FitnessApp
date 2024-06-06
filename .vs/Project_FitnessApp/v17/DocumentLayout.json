@@ -3,20 +3,52 @@
   "WorkspaceRootPath": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|c:\\utcn\\anul_3\\sem 2\\ii\\project_fitnessapp\\project_fitnessapp.server\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|solutionrelative:project_fitnessapp.server\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.server\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|solutionrelative:project_fitnessapp.server\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.server\\controllers\\fitness_appcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|solutionrelative:project_fitnessapp.server\\controllers\\fitness_appcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|c:\\utcn\\anul_3\\sem 2\\ii\\project_fitnessapp\\project_fitnessapp.client\\src\\components\\subs.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|c:\\utcn\\anul_3\\sem 2\\ii\\project_fitnessapp\\project_fitnessapp.client\\src\\components\\gymmanagementcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\components\\gymmanagementcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\components\\poolmanagementcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\components\\poolmanagementcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\components\\climbingmanagementcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\components\\climbingmanagementcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\components\\seesubscriptions.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\components\\seesubscriptions.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\components\\subs.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\components\\subs.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\components\\homepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\components\\homepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\components\\seebookings.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\components\\seebookings.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\components\\userseebookings.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\components\\userseebookings.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\components\\poolscomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -27,24 +59,32 @@
       "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\components\\climbingcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\components\\admin_menu.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\components\\admin_menu.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\components\\seebookings.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\components\\seebookings.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\components\\bookingformcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\components\\bookingformcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\components\\userseebookings.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\components\\userseebookings.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\components\\admin_menu.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\components\\admin_menu.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\components\\homepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\components\\homepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|solutionrelative:project_fitnessapp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|solutionrelative:project_fitnessapp.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|solutionrelative:project_fitnessapp.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\components\\gymcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -53,64 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\components\\login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\components\\login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\components\\seesubscriptions.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\components\\seesubscriptions.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\components\\climbingmanagementcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\components\\climbingmanagementcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.server\\models\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|solutionrelative:project_fitnessapp.server\\models\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.server\\models\\trainers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|solutionrelative:project_fitnessapp.server\\models\\trainers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.server\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|solutionrelative:project_fitnessapp.server\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|solutionrelative:project_fitnessapp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.server\\models\\pool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|solutionrelative:project_fitnessapp.server\\models\\pool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.server\\models\\climbing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|solutionrelative:project_fitnessapp.server\\models\\climbing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F307E348-7688-4410-9F5F-9ADE16B6CB80}|Project_FitnessApp.Server\\Project_FitnessApp.Server.csproj|solutionrelative:project_fitnessapp.server\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_FTVSCK8/Fitness_App/True/SqlTable/dbo.Trainers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\components\\poolmanagementcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\components\\poolmanagementcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\components\\gymmanagementcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\components\\gymmanagementcomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_FTVSCK8/Fitness_App/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{06BD25E4-F018-4757-A48F-B8980F60D026}|project_fitnessapp.client\\project_fitnessapp.client.esproj|solutionrelative:project_fitnessapp.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -120,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -128,52 +110,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ClimbingComponent.jsx",
-              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\ClimbingComponent.jsx",
-              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\ClimbingComponent.jsx",
-              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\ClimbingComponent.jsx",
-              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\ClimbingComponent.jsx",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAAAHUAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-26T14:55:47.438Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Subs.jsx",
-              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\Subs.jsx",
-              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\Subs.jsx",
-              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\Subs.jsx",
-              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\Subs.jsx",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAIwEsAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-27T08:19:22.065Z",
+              "DocumentIndex": 0,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\Project_FitnessApp.Server\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Project_FitnessApp.Server\\Models\\Booking.cs",
+              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\Project_FitnessApp.Server\\Models\\Booking.cs",
+              "RelativeToolTip": "Project_FitnessApp.Server\\Models\\Booking.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T09:20:27.757Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PoolsComponent.jsx",
-              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\PoolsComponent.jsx",
-              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\PoolsComponent.jsx",
-              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\PoolsComponent.jsx",
-              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\PoolsComponent.jsx",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAuwGEAAABVAAAA",
+              "DocumentIndex": 5,
+              "Title": "ClimbingManagementComponent.jsx",
+              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\ClimbingManagementComponent.jsx",
+              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\ClimbingManagementComponent.jsx",
+              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\ClimbingManagementComponent.jsx",
+              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\ClimbingManagementComponent.jsx",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAqwHsAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-26T15:03:55.468Z"
+              "WhenOpened": "2024-05-26T17:51:29.626Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "HomePage.jsx",
-              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\HomePage.jsx",
-              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\HomePage.jsx",
-              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\HomePage.jsx",
-              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\HomePage.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABVAAAA",
+              "DocumentIndex": 4,
+              "Title": "PoolManagementComponent.jsx",
+              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\PoolManagementComponent.jsx",
+              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\PoolManagementComponent.jsx",
+              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\PoolManagementComponent.jsx",
+              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\PoolManagementComponent.jsx",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAHIAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-26T17:16:53.823Z"
+              "WhenOpened": "2024-05-26T17:51:59.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GymManagementComponent.jsx",
+              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\GymManagementComponent.jsx",
+              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\GymManagementComponent.jsx",
+              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\GymManagementComponent.jsx",
+              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\GymManagementComponent.jsx",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAwwHYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-05-26T17:51:46.026Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -183,282 +166,227 @@
               "RelativeDocumentMoniker": "Project_FitnessApp.Server\\Controllers\\Fitness_AppController .cs",
               "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\Project_FitnessApp.Server\\Controllers\\Fitness_AppController .cs",
               "RelativeToolTip": "Project_FitnessApp.Server\\Controllers\\Fitness_AppController .cs",
-              "ViewState": "AQIAAL4CAAAAAAAAAAA8wN0CAAAAAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwDcAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T18:58:48.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.jsx",
-              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\App.jsx",
-              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\App.jsx",
-              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\App.jsx",
-              "RelativeToolTip": "project_fitnessapp.client\\src\\App.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-26T16:12:54.455Z",
+              "WhenOpened": "2024-06-05T18:05:27.318Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "main.jsx",
-              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\main.jsx",
-              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\main.jsx",
-              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\main.jsx",
-              "RelativeToolTip": "project_fitnessapp.client\\src\\main.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-26T17:12:27.909Z",
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\Project_FitnessApp.Server\\Data\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "Project_FitnessApp.Server\\Data\\MyDbContext.cs",
+              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\Project_FitnessApp.Server\\Data\\MyDbContext.cs",
+              "RelativeToolTip": "Project_FitnessApp.Server\\Data\\MyDbContext.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA1wCUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T09:37:13.66Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Admin_Menu.jsx",
-              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\Admin_Menu.jsx",
-              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\Admin_Menu.jsx",
-              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\Admin_Menu.jsx",
-              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\Admin_Menu.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-26T16:11:28.321Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "BookingFormComponent.jsx",
-              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\BookingFormComponent.jsx",
-              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\BookingFormComponent.jsx",
-              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\BookingFormComponent.jsx",
-              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\BookingFormComponent.jsx",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAABcAAAAqAAAA",
+              "Title": "HomePage.jsx",
+              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\HomePage.jsx",
+              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\HomePage.jsx",
+              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\HomePage.jsx",
+              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\HomePage.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-26T17:50:06.913Z"
+              "WhenOpened": "2024-06-05T18:12:32.705Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "SeeBookings.jsx",
-              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\SeeBookings.jsx",
-              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\SeeBookings.jsx",
-              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\SeeBookings.jsx",
-              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\SeeBookings.jsx",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABcAAAAJAAAA",
+              "Title": "Subs.jsx",
+              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\Subs.jsx",
+              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\Subs.jsx",
+              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\Subs.jsx",
+              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\Subs.jsx",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAEYAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-26T19:18:55.895Z"
+              "WhenOpened": "2024-06-05T18:11:34.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserSeeBookings.jsx",
-              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\UserSeeBookings.jsx",
-              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\UserSeeBookings.jsx",
-              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\UserSeeBookings.jsx",
-              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\UserSeeBookings.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAABUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-29T07:55:48.949Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 6,
               "Title": "SeeSubscriptions.jsx",
               "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\SeeSubscriptions.jsx",
               "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\SeeSubscriptions.jsx",
               "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\SeeSubscriptions.jsx",
               "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\SeeSubscriptions.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAUAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAwwCoAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-27T08:39:31.562Z"
+              "WhenOpened": "2024-06-05T18:11:38.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SeeBookings.jsx",
+              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\SeeBookings.jsx",
+              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\SeeBookings.jsx",
+              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\SeeBookings.jsx",
+              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\SeeBookings.jsx",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-05T18:11:44.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserSeeBookings.jsx",
+              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\UserSeeBookings.jsx",
+              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\UserSeeBookings.jsx",
+              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\UserSeeBookings.jsx",
+              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\UserSeeBookings.jsx",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAqwCoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-05T18:07:33.231Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "GymComponent.jsx",
-              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\GymComponent.jsx",
-              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\GymComponent.jsx",
-              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\GymComponent.jsx",
-              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\GymComponent.jsx",
-              "ViewState": "AQIAAGYAAAAAAAAAAAAAAEEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-29T17:08:53.861Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Login.jsx",
-              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\Login.jsx",
-              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\Login.jsx",
-              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\Login.jsx",
-              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\Login.jsx",
-              "ViewState": "AQIAAK4AAAAAAAAAAAAqwLYAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-26T16:11:30.189Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ClimbingManagementComponent.jsx",
-              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\ClimbingManagementComponent.jsx",
-              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\ClimbingManagementComponent.jsx",
-              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\ClimbingManagementComponent.jsx",
-              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\ClimbingManagementComponent.jsx",
-              "ViewState": "AQIAADgAAAAAAAAAAAAAAFAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-26T17:51:29.626Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Subscription.cs",
-              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\Project_FitnessApp.Server\\Models\\Subscription.cs",
-              "RelativeDocumentMoniker": "Project_FitnessApp.Server\\Models\\Subscription.cs",
-              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\Project_FitnessApp.Server\\Models\\Subscription.cs",
-              "RelativeToolTip": "Project_FitnessApp.Server\\Models\\Subscription.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T11:48:41.234Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Trainers.cs",
-              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\Project_FitnessApp.Server\\Models\\Trainers.cs",
-              "RelativeDocumentMoniker": "Project_FitnessApp.Server\\Models\\Trainers.cs",
-              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\Project_FitnessApp.Server\\Models\\Trainers.cs",
-              "RelativeToolTip": "Project_FitnessApp.Server\\Models\\Trainers.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T11:49:48.118Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\Project_FitnessApp.Server\\Models\\Booking.cs",
-              "RelativeDocumentMoniker": "Project_FitnessApp.Server\\Models\\Booking.cs",
-              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\Project_FitnessApp.Server\\Models\\Booking.cs",
-              "RelativeToolTip": "Project_FitnessApp.Server\\Models\\Booking.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T12:14:36.797Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\Project_FitnessApp.Server\\Program.cs",
-              "RelativeDocumentMoniker": "Project_FitnessApp.Server\\Program.cs",
-              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\Project_FitnessApp.Server\\Program.cs",
-              "RelativeToolTip": "Project_FitnessApp.Server\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T08:07:11.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Climbing.cs",
-              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\Project_FitnessApp.Server\\Models\\Climbing.cs",
-              "RelativeDocumentMoniker": "Project_FitnessApp.Server\\Models\\Climbing.cs",
-              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\Project_FitnessApp.Server\\Models\\Climbing.cs",
-              "RelativeToolTip": "Project_FitnessApp.Server\\Models\\Climbing.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T12:43:27.932Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Pool.cs",
-              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\Project_FitnessApp.Server\\Models\\Pool.cs",
-              "RelativeDocumentMoniker": "Project_FitnessApp.Server\\Models\\Pool.cs",
-              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\Project_FitnessApp.Server\\Models\\Pool.cs",
-              "RelativeToolTip": "Project_FitnessApp.Server\\Models\\Pool.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T12:24:57.679Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "dbo.Trainers [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_FTVSCK8/Fitness_App/True/SqlTable/dbo.Trainers.sql",
-              "ToolTip": "dbo.Trainers [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-28T12:17:48.829Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\Project_FitnessApp.Server\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Project_FitnessApp.Server\\Models\\User.cs",
-              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\Project_FitnessApp.Server\\Models\\User.cs",
-              "RelativeToolTip": "Project_FitnessApp.Server\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T11:36:19.276Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "PoolManagementComponent.jsx",
-              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\PoolManagementComponent.jsx",
-              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\PoolManagementComponent.jsx",
-              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\PoolManagementComponent.jsx",
-              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\PoolManagementComponent.jsx",
-              "ViewState": "AQIAAHYAAAAAAAAAAAAAABsAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-26T17:51:59.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "GymManagementComponent.jsx",
-              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\GymManagementComponent.jsx",
-              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\GymManagementComponent.jsx",
-              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\GymManagementComponent.jsx",
-              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\GymManagementComponent.jsx",
-              "ViewState": "AQIAALcAAAAAAAAAAAAAAEkAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-05-26T17:51:46.026Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
               "Title": "App.css",
               "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\App.css",
               "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\App.css",
               "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\App.css",
               "RelativeToolTip": "project_fitnessapp.client\\src\\App.css",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAAhAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADAAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-26T14:54:09.087Z"
+              "WhenOpened": "2024-06-05T18:06:54.118Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "index.css",
-              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\index.css",
-              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\index.css",
-              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\index.css",
-              "RelativeToolTip": "project_fitnessapp.client\\src\\index.css",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAADwAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-26T14:54:51.031Z"
+              "DocumentIndex": 12,
+              "Title": "PoolsComponent.jsx",
+              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\PoolsComponent.jsx",
+              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\PoolsComponent.jsx",
+              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\PoolsComponent.jsx",
+              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\PoolsComponent.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-05T18:11:52.785Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "dbo.Users [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_FTVSCK8/Fitness_App/True/SqlTable/dbo.Users.sql",
-              "ToolTip": "dbo.Users [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-26T19:17:49.195Z"
+              "DocumentIndex": 13,
+              "Title": "ClimbingComponent.jsx",
+              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\ClimbingComponent.jsx",
+              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\ClimbingComponent.jsx",
+              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\ClimbingComponent.jsx",
+              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\ClimbingComponent.jsx",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAGwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-05T18:13:11.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BookingFormComponent.jsx",
+              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\BookingFormComponent.jsx",
+              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\BookingFormComponent.jsx",
+              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\BookingFormComponent.jsx",
+              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\BookingFormComponent.jsx",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAAAEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-05T18:13:22.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Admin_Menu.jsx",
+              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\Admin_Menu.jsx",
+              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\Admin_Menu.jsx",
+              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\Admin_Menu.jsx",
+              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\Admin_Menu.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-05T18:13:23.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\Project_FitnessApp.Server\\Program.cs",
+              "RelativeDocumentMoniker": "Project_FitnessApp.Server\\Program.cs",
+              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\Project_FitnessApp.Server\\Program.cs",
+              "RelativeToolTip": "Project_FitnessApp.Server\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T09:31:28.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\Project_FitnessApp.Server\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Project_FitnessApp.Server\\appsettings.Development.json",
+              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\Project_FitnessApp.Server\\appsettings.Development.json",
+              "RelativeToolTip": "Project_FitnessApp.Server\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-06T09:37:28.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\Project_FitnessApp.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "Project_FitnessApp.Server\\appsettings.json",
+              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\Project_FitnessApp.Server\\appsettings.json",
+              "RelativeToolTip": "Project_FitnessApp.Server\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-06T09:36:55.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "vite.config.js",
+              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\vite.config.js",
+              "RelativeDocumentMoniker": "project_fitnessapp.client\\vite.config.js",
+              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\vite.config.js",
+              "RelativeToolTip": "project_fitnessapp.client\\vite.config.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-06T09:37:08.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\App.jsx",
+              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\App.jsx",
+              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\App.jsx",
+              "RelativeToolTip": "project_fitnessapp.client\\src\\App.jsx",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAAwD8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-05-26T16:12:54.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GymComponent.jsx",
+              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\GymComponent.jsx",
+              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\GymComponent.jsx",
+              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\GymComponent.jsx",
+              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\GymComponent.jsx",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAGwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-05T18:12:58.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Login.jsx",
+              "DocumentMoniker": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\Login.jsx",
+              "RelativeDocumentMoniker": "project_fitnessapp.client\\src\\Components\\Login.jsx",
+              "ToolTip": "C:\\UTCN\\Anul_3\\Sem 2\\II\\Project_FitnessApp\\project_fitnessapp.client\\src\\Components\\Login.jsx",
+              "RelativeToolTip": "project_fitnessapp.client\\src\\Components\\Login.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-05T18:12:31.919Z"
             }
           ]
         }

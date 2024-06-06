@@ -12,7 +12,7 @@ const SeeSubscriptions = ({ trainerType }) => {
         if (trainerType) {
             axios.get(`https://localhost:7194/Fitness_App/GetSubscriptionByTrainer/${trainerType}`)
                 .then(response => {
-                    // Sort subscriptions by user names
+                  
                     const sortedSubscriptions = response.data.sort((a, b) => a.user_name.localeCompare(b.user_name));
                     setSubscriptions(sortedSubscriptions);
                 })
@@ -39,7 +39,7 @@ const SeeSubscriptions = ({ trainerType }) => {
         <div>
             <div className="navbar">
                 <nav>
-                    <ul>
+                    <ul className="nav-items">
                         {(userId === 2) && <li><Link to="/poolsman">Pool Management</Link></li>}
                         {(userId === 1) && <li><Link to="/gymman">Gym Management</Link></li>}
                         {(userId === 3) && <li><Link to="/climbingman">Wall Management</Link></li>}
@@ -49,7 +49,8 @@ const SeeSubscriptions = ({ trainerType }) => {
                 </nav>
             </div>
 
-            <h2>See Subscriptions</h2>
+
+            <h3>See Subscriptions</h3>
             <div>
                 {!showSubscriptions && <button onClick={handleViewSubs}>View</button>}
                 {showSubscriptions && <button onClick={handleHideSubs}>Hide</button>}
@@ -59,12 +60,13 @@ const SeeSubscriptions = ({ trainerType }) => {
                 <ul>
                     {subscriptions.map(subscription => (
                         <li key={subscription.subscription_id}>
-                            User: {subscription.user_name}, Start Date: {formatDate(subscription.time_sub)}, End Date: {calculateEndDate(subscription.time_sub)}
+                            User: {subscription.user_name}, Start Date: {subscription.time_sub}, End Date: {calculateEndDate(subscription.time_sub)}
                         </li>
                     ))}
                 </ul>
             )}
         </div>
+
     );
 };
 

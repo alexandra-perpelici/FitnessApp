@@ -8,7 +8,7 @@ const AdminMenuComponent = () => {
         <div className="management">
         <div className="navbar">
             <nav>
-                <ul>
+                <ul className="nav-items">
                     {(userId === 2 ) && <li><Link to="/poolsman">Pool Management</Link></li>}
                     {(userId === 1 ) && <li><Link to="/gymman">Gym Management</Link></li>}
                     {(userId === 3 ) && <li><Link to="/climbingman">Wall Management</Link></li>}

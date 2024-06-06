@@ -24,7 +24,7 @@ const Subs = () => {
     const handleSubmit = async (event) => {
         event.preventDefault();
         const userId = sessionStorage.getItem('userId');
-        console.log("subscription type:", subscriptionType);
+      
 
         try {
             const checkSubscriptionResponse = await axios.get(`https://localhost:7194/Fitness_App/CheckSubscription/${userId}/${subscriptionType}`);
@@ -68,20 +68,21 @@ const Subs = () => {
     };
 
     return (
-        <div>
+        <div className="management">
             <div className="navbar">
                 <nav>
-                    <ul>
-                        <li><Link to="/home">Home Page</Link></li>
+                    <ul className="nav-items">
+                        <li><Link to="/home">Home</Link></li>
                         <li><Link to="/pools">Pools</Link></li>
                         <li><Link to="/gym">Gym</Link></li>
                         <li><Link to="/climbing">Climbing</Link></li>
                         <li><Link to="/subs">Make a subscription</Link></li>
-                        <li><Link to="/userseebookings">See your bookings</Link></li>
+                        <li><Link to="/userseebookings">See bookings</Link></li>
                         <li><Link to="/logout">Logout</Link></li>
                     </ul>
                 </nav>
             </div>
+
             <h2>Subscribe</h2>
             <form onSubmit={handleSubmit}>
                 <div>
